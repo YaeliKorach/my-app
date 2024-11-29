@@ -111,7 +111,7 @@ export default function SignUp(props) {
     };
 
     try {
-      const response = await fetch('http://localhost:3007/news/register', {
+      const response = await fetch('http://localhost:3008/news/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
